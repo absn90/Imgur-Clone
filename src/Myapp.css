@@ -1,0 +1,110 @@
+
+.myapp
+{
+    background-color:#2e3035;
+    margin: center;
+    background-image:url("background.png");
+}
+.header
+{
+    display: flex;
+    height: 20vmin;
+    background-image:url("background.png");
+    
+    color: rgb(121, 86, 86);
+}
+.logo 
+{
+    height: 20vmin;
+    pointer-events: none;
+}
+
+.searchbar
+{
+    background: hsla(0,0%,100%,.25);
+    border: 1px solid transparent;
+    height: 35px;
+    margin: 4px;
+    opacity: .8;
+    background: center;
+    width: -webkit-fill-available;
+}
+.input
+{
+    height: -webkit-fill-available;
+    width:400px;
+    border: hidden;
+    background: padding-box;
+}
+.search
+{
+    align-items: center;
+    height: 2vmin;
+    pointer-events: none;
+}
+.button
+{
+    height: 35px;
+    width: 240px;
+    padding: 7px 14px 10px 9px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1bb76e;
+    color: #fff;
+    margin-inline-end: auto;
+    margin-top: 5px;
+}
+.button1
+{
+    float: right;
+    height: 35px;
+    width: 200px;
+    padding: 7px 14px 10px 9px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #1bb76e;
+    color: #fff;
+    margin-top: 5px;
+    
+}
+.add
+{
+    vertical-align: middle;
+}
+.welcome
+{
+   
+    height: 6vmin;
+    background-color: rgb(224, 205, 171);
+    margin-top:auto;    
+    text-align: center;
+}
+.imagebox
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(10, 10, 156, 0.205);
+    display: inline-block;
+    margin: 2%;
+}
+.imagebox:hover
+{
+transform: scale(1,1.5);
+}
+.image
+{
+    height: 200px;
+    width: 250px;
+}
+.text
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+.uv
+{
+    margin-top: auto;
+    margin-inline-end: auto;
+}
